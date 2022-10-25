@@ -1,5 +1,5 @@
 public class Rectangle extends FillableShape{
-    private static int objectCount = 0;
+    private static int rectangleCount = 0;
 
     public Rectangle(int x1,int  x2,int  y1,int  y2,boolean filled) {
         objectCount++;
@@ -10,8 +10,8 @@ public class Rectangle extends FillableShape{
         setFilled(filled);
     }
 
-    public static int getCount() {
-        return objectCount;
+    public static int getRectangleCount() {
+        return rectangleCount;
     }
 
 
