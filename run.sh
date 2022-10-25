@@ -1,0 +1,8 @@
+#!/bin/bash
+file_name=Main
+if [ $# -gt 0 ]
+then
+    file_name=$1
+fi
+javac $file_name.java
+java -cp . $file_name ${@:2}
