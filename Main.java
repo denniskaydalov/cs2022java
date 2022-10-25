@@ -37,7 +37,6 @@ public class Main {
         System.out.println("oval - Y1: " + oval.getY1());
         System.out.println("oval - Y2: " + oval.getY2());
         System.out.println("oval - Filled: " +oval.getFilled());
-        System.out.println("oval - count: " + oval.getCount());
         System.out.println("oval - upper left x: " + oval.getUpperLeftX());
         System.out.println("oval - upper left y: " + oval.getUpperLeftY());
         System.out.println("oval - width: " + oval.getWidth());
