@@ -2,12 +2,8 @@ public class Rectangle extends FillableShape{
     private static int rectangleCount = 0;
 
     public Rectangle(int x1,int  x2,int  y1,int  y2,boolean filled) {
-        objectCount++;
-        setX1(x1);
-        setX2(x2);
-        setY1(y1);
-        setY2(y2);
-        setFilled(filled);
+        super(x1, x2, y1, y2, filled);
+        rectangleCount++;
     }
 
     public static int getRectangleCount() {

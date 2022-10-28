@@ -2,6 +2,14 @@ public class FillableShape {
     private int x1, x2, y1, y2;
     private boolean filled;
 
+    public FillableShape(int x1,int  x2,int  y1,int  y2,boolean filled) {
+        setX1(x1);
+        setX2(x2);
+        setY1(y1);
+        setY2(y2);
+        setFilled(filled);
+    }
+
     public int getUpperLeftX() {
         return Math.min(x1, x2);
     }
