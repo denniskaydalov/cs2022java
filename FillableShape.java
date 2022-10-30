@@ -93,5 +93,7 @@ public class FillableShape {
     public String toString(int x) {
         return String.valueOf(x);
     }
+
+    public abstract double calcArea();
 }
 
