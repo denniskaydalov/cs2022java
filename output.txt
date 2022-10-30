@@ -1,4 +1,0 @@
-digits: 0
-upperCase: 2
-lowerCase: 58
-spaces: 31

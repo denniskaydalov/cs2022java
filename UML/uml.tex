@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=0.6cm,right=0cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{cpgf-umlcd}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{abstractclass}[text width = 8cm]{FillableShape}{0, 0}
+        \attribute {- x1 : int}
+        \attribute {- x2 : int}
+        \attribute {- x3 : int}
+        \attribute {- x4 : int}
+        \attribute {- filled : boolean}
+
+        \operation {+ getUpperLeftX() : int}
+        \operation {+ getUpperLeftY() : int}
+        \operation {+ getWidth() : int}
+        \operation {+ getHeight() : int}
+        \operation {+ getX1()}
+        \operation {+ getX2()}
+        \operation {+ getX3()}
+        \operation {+ getX4()}
+        \operation {+ getFilled()}
+        \operation {+ setX1(x1 : int)}
+        \operation {+ setX2(x2 : int)}
+        \operation {+ setX3(x3 : int)}
+        \operation {+ setX4(x4 : int)}
+        \operation {+ setFilled(filled : boolean)}
+        \operation {+ toString() : String}
+        \operation [0]{+ calcArea() : double}
+    \end{abstractclass}
+
+    \begin{class}[text width = 8cm]{Oval}{-6, -15}
+        \inherit{FillableShape}
+        \attribute {\underline{- ovalCount : int}}
+
+        \operation {+ Oval(x1 : int, x2 : int, x3 : int, x4 : int, filled : boolean)}
+        \operation {+ Oval()}
+        \operation {+ isCircle() : boolean}
+        \operation {+ calcArea() : double}
+        \operation {\underline{+ getOvalCount() : int}}
+    \end{class}
+
+    \begin{class}[text width = 8cm]{Rectangle}{5, -15}
+        \inherit{FillableShape}
+        \attribute {\underline{- rectangleCount : int}}
+
+        \operation {+ Rectangle(x1 : int, x2 : int, x3 : int, x4 : int, filled : boolean)}
+        \operation {+ Rectangle()}
+        \operation {+ isOverlapping() : boolean}
+        \operation {+ calcArea() : double}
+        \operation {\underline{+ getRectangleCount() : int}}
+    \end{class}
+
+\end{tikzpicture}
+\end{document}
