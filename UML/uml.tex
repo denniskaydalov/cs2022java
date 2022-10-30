@@ -6,13 +6,14 @@
 
 \begin{document}
 \begin{tikzpicture}
-    \begin{abstractclass}[text width = 8cm]{FillableShape}{0, 0}
+    \begin{abstractclass}[text width = 11cm]{FillableShape}{0, 0}
         \attribute {- x1 : int}
         \attribute {- x2 : int}
         \attribute {- x3 : int}
         \attribute {- x4 : int}
         \attribute {- filled : boolean}
 
+        \operation {+ FillabeShape(x1 : int, x2 : int, x3 : int, x4 : int, filled : boolean)}
         \operation {+ getUpperLeftX() : int}
         \operation {+ getUpperLeftY() : int}
         \operation {+ getWidth() : int}

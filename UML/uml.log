@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.10.22)  30 OCT 2022 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.10.22)  30 OCT 2022 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,151 +375,151 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 [][]\OT1/cmr/m/n/10 - x1 : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 - x2 : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 - x3 : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 - x4 : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[][]\OT1/cmr/m/n/10 + getUp-per-LeftX() : int 
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\OT1/cmr/m/n/10 + getUp-per-LeftX() : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getUp-per-LeftY() : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getWidth() : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getH-eight() : int 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getX1() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getX2() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getX3() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + getX4() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + get-Filled() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + setX1(x1 : int) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + setX2(x2 : int) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + setX3(x3 : int) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + setX4(x4 : int) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + set-Filled(filled : boolean) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 \OT1/cmr/m/n/10 + toString() : String 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 44.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 [][]\OT1/cmr/m/n/10 + Oval(x1 : int, x2 : int, x3 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 \OT1/cmr/m/n/10 : int, x4 : int, filled : boolean) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 \OT1/cmr/m/n/10 + Oval() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 \OT1/cmr/m/n/10 + is-Cir-cle() : boolean 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 \OT1/cmr/m/n/10 + cal-cArea() : dou-ble 
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 54--54
+Underfull \hbox (badness 6526) in paragraph at lines 55--55
 [][]\OT1/cmr/m/n/10 + Rect-an-gle(x1 : int, x2 : int, x3 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/m/n/10 : int, x4 : int, filled : boolean) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/m/n/10 + Rect-an-gle() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/m/n/10 + isOver-lap-ping() : boolean 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \OT1/cmr/m/n/10 + cal-cArea() : dou-ble 
  []
 
@@ -527,15 +527,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./uml.aux) ) 
 Here is how much of TeX's memory you used:
- 13680 strings out of 478238
- 295296 string characters out of 5850455
+ 13682 strings out of 478238
+ 295350 string characters out of 5850455
  570610 words of memory out of 5000000
- 31714 multiletter control sequences out of 15000+600000
+ 31716 multiletter control sequences out of 15000+600000
  469913 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,7n,118p,424b,819s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on uml.pdf (1 page, 45024 bytes).
+Output written on uml.pdf (1 page, 45060 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

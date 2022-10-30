@@ -1,0 +1,6 @@
+*.class
+UML/uml.aux
+UML/uml.fdb_latexmk
+UML/uml.fls
+UML/uml.synctex.gz
+UML/uml.log
