@@ -1,4 +1,4 @@
-public class FillableShape {
+abstract class FillableShape {
     private int x1, x2, y1, y2;
     private boolean filled;
 
