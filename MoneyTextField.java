@@ -46,14 +46,23 @@ public class MoneyTextField extends JFrame {
                 moneyNumber *= 100;
                 moneyNumber = Math.floor(moneyNumber);
                 moneyNumber /= 100;
-                int toonies = (int) moneyNumber;
-                System.out.println(toonies);
-                labels[0].setText(Integer.toString((toonies % 2 == 0 ? toonies/2 : toonies/2 + 1)));
+
+                int toonies = (int) (moneyNumber / 2);
+                labels[0].setText(Integer.toString(toonies));
+                moneyNumber -= toonies * 2;
                 labels[1].setText(Integer.toString((int) moneyNumber));
-                labels[2].setText(Integer.toString((int) moneyNumber * 4 + (int) Math.ceil(((moneyNumber - (int) moneyNumber) * 100 / 25))));
-                labels[3].setText(Integer.toString((int) moneyNumber * 10 + (int) Math.ceil(((moneyNumber - (int) moneyNumber) * 10))));
-                labels[4].setText(Integer.toString((int) Math.ceil(moneyNumber * 100 / 5)));
-                labels[5].setText(Integer.toString((int) Math.ceil(moneyNumber * 100)));
+                moneyNumber -= (int) moneyNumber;
+                int quarters = (int) (moneyNumber * 100 / 25);
+                labels[2].setText(Integer.toString((quarters > 0 ? quarters : 0)));
+                moneyNumber -= (quarters > 0 ? quarters : 0) / 4.0;
+                int dimes = (int) (moneyNumber * 100 / 10);
+                labels[3].setText(Integer.toString((dimes > 0 ? dimes : 0)));
+                moneyNumber -= (dimes > 0 ? dimes : 0) / 10.0;
+                int nickels = (int) (moneyNumber * 100 / 5);
+                labels[4].setText(Integer.toString((nickels > 0 ? nickels : 0)));
+                moneyNumber -= (nickels > 0 ? nickels: 0) / 20.0;
+                int pennies = (int) (moneyNumber * 100);
+                labels[5].setText(Integer.toString((pennies > 0 ? pennies : 0)));
             }
             catch (Exception exception) {
                 JOptionPane.showMessageDialog( null, "Remember to enter a number greater or equal to 0!" );
